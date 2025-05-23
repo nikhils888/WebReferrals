@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trip.com Referral</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nav bar</h1>
+  </header>
+
+  <main class="brand-container">
+    <div class="brand-info">
+      <div class="brand-text">
+        <h1>Trip.com</h1>
+        <p>Book your travel with extra savings using our referral code below.</p>
+      </div>
+      <div class="brand-logo">
+        <img src="images/unnamed.png" alt="Trip.com Logo" />
+      </div>
+    </div>
+
+    <!-- New Info Box -->
+    <div class="info-box">
+      <div class="info-left">
+        <div class="rating-value">3.1</div>
+        <div class="stars">
+          ★★★☆☆
+        </div>
+        <div class="short-desc">Trusted by 1000+ users</div>
+      </div>
+      <div class="divider"></div>
+      <div class="info-right">
+        <div class="verified">
+          <span class="checkmark">✔</span>
+          <span class="verified-text">Verified Publisher</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="referral-code-section">
+      <h3>Referral Code:</h3>
+      <div class="code-box">
+        <span id="code">TRAVEL123</span>
+        <button onclick="copyCode()">Copy</button>
+      </div>
+    </div>
+    <div class="how-to-use">
+      <h3>How to Use</h3>
+      <ol>
+        <li>Visit <a href="https://trip.com" target="_blank">Trip.com</a></li>
+        <li>Signup usine your email or phone number</li>
+        <li>Ente referral code <strong>TRAVEL123</strong> during checkout</li>
+      </ol>
+    </div>
+  </main>
+
+
+  <script>
+    function copyCode() {
+      const code = document.getElementById('code').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        alert('Referral code copied: ' + code);
+      });
+    }
+  </script>
+  
+
+</body>
+</html>
