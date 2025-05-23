@@ -11,6 +11,7 @@ body{
 
 }
 
+/* NAVBAR */
 header{
     height: 60px;
     background-color: aquamarine;
@@ -27,27 +28,66 @@ header{
     justify-content: space-between;
 }
 
+/* .container h1{
+    background-color: yellow;
+} */
+
+/* nav{
+    padding: 20px ;
+    background-color: wheat;3
+} */
+
+nav ul{
+    /* background-color: turquoise; */
+    display: block;
+}
+
 nav ul li{
+    /* background-color: violet; */
+    /* padding: 20px 0px; */
+    display: inline-block;
+    height: 100%;
+    width: 100%;
     list-style:none;
     display: inline;
     margin-right: 20px;
     
 }
 
-.hero{
+nav li{
+    height: 600px;
+}
+
+nav a{
+    text-decoration: none;
+}
+/* 
+nav a:hover{
+    background-color: aqua;
+} */
+
+/* MAIN Starts here */
+
+/* .main{
+} */
+
+/* Hero1 - Search BAR */
+
+.hero1{
     text-align: center;
     padding: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: brown;
 }
 
-.hero h2{
+.hero-section h2{
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.hero p{
+.hero-section p{
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -71,3 +111,53 @@ nav ul li{
     height: 40px;
     width: 60px;
 }
+
+/* Hero2 Top Companies Slider */
+/* .hero2{
+    background-color: cadetblue;
+} */
+.hero2 h2{
+    margin-bottom: 0px;
+
+}
+
+.hero2 p{
+    margin-bottom: 20px;
+}
+
+.Horizontal-slider{
+    background-color: navy;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.company-card{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    /* align-items: center; */
+    margin: 0px 20px;
+    background-color: aqua;
+}
+
+.grid-image{
+    /* background-color: coral; */
+    margin: 0px 5px;
+}
+
+.grid-text{
+    background-color: crimson;
+}
+
+.company-card img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* .card-content{
+    display: inline-grid;
+} */

@@ -6,29 +6,90 @@
     <link rel="stylesheet" href="styles/indexPage.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header>
         <div class="container">
             <h1 class="logo">WebReferrals</h1>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>Categories</li>
-                    <li>Referees</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Referees</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="hero">
+    <!-- 
+    1. Search Bar
+    2. Horizontal Scroll for the Top Companies
+    3. Filter by Company Category
+    4. How It Works
+    5. Why Choose Us
+    6. FAQs
+    
+    -->
+    <main>
+    <section class="hero1">
         <div class="hero-section">
             <h2>Get Referral Codes to Popular Websites</h2>
-            <p>Share Referrals, leave revies and Earn rewards</p>
+            <p>Share Referrals, leave reviews and Earn rewards</p>
             <form action="#" class="search-box">
                 <input type="text" placeholder="Search Company">
                 <button type="submit">Search</button>
             </form>
         </div>
     </section>
+    <section class="hero2">
+        <div class="hero-section">
+            <h2>Popular Referrals</h2>
+            <p>Browse Most frequently used referrals</p>
+
+            <div class="Horizontal-slider">
+                <button type="button"><</button>
+
+                <div class="company-card" id="card1">
+                    <div class="grid-image">
+                        <img src="images/amazon_logo.jpg" alt="Amazon">
+                    </div>
+                    <div class="grid-text">
+                        <h4 class="grid-text">Hi I am a Card</h4>
+                    </div>
+                </div>
+
+                <div class="company-card" id="card1">
+                    <div class="grid-image">
+                        <img src="images/amazon_logo.jpg" alt="Amazon">
+                    </div>
+                    <div class="grid-text">
+                        <h4 class="grid-text">Hi I am a Card</h4>
+                    </div>
+                </div>
+
+                <div class="company-card" id="card1">
+                    <div class="grid-image">
+                        <img src="images/amazon_logo.jpg" alt="Amazon">
+                    </div>
+                    <div class="grid-text">
+                        <h4 class="grid-text">Hi I am a Card</h4>
+                    </div>
+                </div>
+
+                <div class="company-card" id="card1">
+                    <div class="grid-image">
+                        <img src="images/amazon_logo.jpg" alt="Amazon">
+                    </div>
+                    <div class="grid-text">
+                        <h4 class="grid-text">Hi I am a Card</h4>
+                    </div>
+                </div>
+
+
+                <button type="button">></button>
+            </div>
+        </div>
+    </section>
+    
 
 </body>
 
