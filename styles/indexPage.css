@@ -737,6 +737,7 @@ animation h for image
 }
 
 .faq-section {
+ 
   background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
   margin: 0 auto;
   padding: 80px 24px;
@@ -853,6 +854,8 @@ animation h for image
   
   .faq-title {
     font-size: 2rem;
+
+  padding-top: 40px;
   }
   
   .faq-question {
