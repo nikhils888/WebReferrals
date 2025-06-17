@@ -56,6 +56,46 @@
             color: #666;
             line-height: 1.6;
         }
+        @media (max-width: 768px) {
+            .team-container {
+                padding: 0 10px;
+            }
+
+            .team-members {
+                grid-template-columns: 1fr; /* Stack team members vertically */
+            }
+
+            .team-member {
+                padding: 20px;
+            }
+
+            .member-photo {
+                width: 100px;
+                height: 100px;
+            }
+
+            .member-name {
+                font-size: 1.25rem;
+            }
+
+            .member-position {
+                font-size: 1rem;
+            }
+
+            .member-bio {
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+
+            .team-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .team-header .subtitle {
+                font-size: 1rem;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -87,29 +127,29 @@
         
        <div class="team-members">
     <div class="team-member">
-        <img src="../images/team-nikhil.jpg" alt="Nikhil Surana" class="member-photo">
+        <img src="images/nikhil.jpg" alt="Nikhil Surana" class="member-photo">
         <h2 class="member-name">Nikhil Surana</h2>
         <p class="member-position">Tech Head</p>
         <p class="member-bio">
-            Nikhil is the driving force behind WebReferrals' technical innovation. With expertise spanning full-stack development, machine learning, and systems architecture, he ensures our platform is scalable, fast, and user-friendly. A constant learner and problem solver, Nikhil leads our technical roadmap and product vision with clarity and precision.
+            Nikhil is a full-stack developer with a strong command over modern web technologies. In this project he focuses on building robust, responsive websites with a focus on performance, usability, and clean architecture. His core skills include front-end frameworks, backend API integration, and ensuring that each component of the product stack communicates effectively and scales reliably. 
         </p>
     </div>
 
     <div class="team-member">
-        <img src="../images/team-pai.jpg" alt="Pai" class="member-photo">
-        <h2 class="member-name">Pai</h2>
+        <img src="images/sudhin.png" alt="Pai" class="member-photo">
+        <h2 class="member-name">Sudhindra Pai</h2>
         <p class="member-position">Tech Head</p>
         <p class="member-bio">
-            Pai brings a strong foundation in backend systems, API design, and frontend optimization. He works alongside Nikhil to build and refine the core functionality of WebReferrals, ensuring every feature is fast, reliable, and intuitive. With deep attention to detail and clean coding practices, Pai plays a critical role in building the technology that powers our referral ecosystem.
+            Sudhindra is a backend and systems developer with a strong foundation in scalable architecture, API design, and integration of AI components into web-based systems. In this project, he focuses on building efficient server-side logic, optimizing database interactions, ensuring that the backend is secure and implementing key system features
         </p>
     </div>
 
     <div class="team-member">
-        <img src="../images/team-uday.jpg" alt="Uday" class="member-photo">
+        <img src="images/uday.jpg" alt="Uday" class="member-photo">
         <h2 class="member-name">Uday kuchhal</h2>
         <p class="member-position">Market Research & Strategy</p>
         <p class="member-bio">
-            Uday leads our market research, identifying trends, user behavior patterns, and growth opportunities. His data-driven insights inform strategic decisions that help shape the platform’s direction. Whether it's competitor analysis or user preference mapping, Uday ensures WebReferrals is always aligned with what the market demands.
+            Uday is a research-driven contributor focused on market needs, product relevance, and data-backed development decisions. He brings technical structure to marketing research by integrating user behavior analytics and strategic feedback loops into the product development cycle. His skill set includes data analysis, user journey modeling, and insight extraction
         </p>
     </div>
 </div>
